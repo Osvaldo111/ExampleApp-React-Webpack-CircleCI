@@ -1,13 +1,11 @@
 import React from "react";
-// import "../style/index.scss";
-import Component from "./components/componentExm";
+import "../style/app.scss";
+import TodoPage from "./pages/TodoPage";
 
 function App() {
   return (
-    <div>
-      <div className="title">Test App</div>
-      <Component />
-      <Component />
+    <div className="appContainer">
+      <TodoPage />
     </div>
   );
 }

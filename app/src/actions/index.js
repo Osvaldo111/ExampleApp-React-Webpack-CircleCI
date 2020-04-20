@@ -1,9 +1,9 @@
 import * as types from "../constants/ActionTypes";
 
 /**
- * Function
+ * Store todo item
  */
-export const actionFunction = param => ({
-  type: types.ACTION,
-  param
+export const storeTodo = (txt) => ({
+  type: types.ADD_TODO,
+  txt,
 });

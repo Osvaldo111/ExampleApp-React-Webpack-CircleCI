@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
-import componentExm from "./componentExp";
+import TodoList from "./TodoList";
 const rootReducer = combineReducers({
   /**COMPONENTS EXM: oneComponent, secondComponent*/
-  componentExm
+  TodoList,
 });
 
 export default rootReducer;

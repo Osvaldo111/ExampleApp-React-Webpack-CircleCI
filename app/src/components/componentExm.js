@@ -1,7 +1,7 @@
 import React from "react";
 // import "../style/YOUR_STYLE.css";
 import { connect } from "react-redux";
-import { actionFunction } from "../actions"; // You can use this action
+// import { actionFunction } from "../actions"; // You can use this action
 import image from "../../images/trademark.svg";
 
 /**
@@ -33,10 +33,10 @@ class Component extends React.Component {
 
 function mapStateToProps(state) {
   return {
-    storeProps: state,
+    // storeProps: state,
   };
 }
 const mapDispatchToProps = {
-  actionFunction,
+  // actionFunction,
 };
 export default connect(mapStateToProps, mapDispatchToProps)(Component);
