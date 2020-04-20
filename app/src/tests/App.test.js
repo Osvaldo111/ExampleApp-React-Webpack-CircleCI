@@ -39,9 +39,7 @@ describe("App validetion <App />", () => {
     });
     wrapper.find(".inputBtn").simulate("click");
     expect(formSpy).toHaveBeenCalledWith(false);
-    expect(wrapper.find(".errEmpt").text()).toBe(
-      "Please, enter an activity error"
-    );
+    expect(wrapper.find(".errEmpt").text()).toBe("Please, enter an activity");
   });
 
   it("Check when the user inputs a valid activity", () => {
