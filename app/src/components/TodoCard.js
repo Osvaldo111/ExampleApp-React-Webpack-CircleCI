@@ -1,5 +1,5 @@
-import React from "react";
-import "../../style/todoCard.scss";
+import React from 'react';
+import '../../style/todoCard.scss';
 // import attachIcon from "../../images/attachIcon.svg";
 
 /**
@@ -19,7 +19,7 @@ const TodoCard = () => {
   //     };
   //   }
 
-  return <div className="emCrdCt">The todo</div>;
+  return <div className='emCrdCt'>The todo Card :D</div>;
 };
 
 export default TodoCard;
