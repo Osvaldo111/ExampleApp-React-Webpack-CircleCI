@@ -19,7 +19,7 @@ const TodoCard = () => {
   //     };
   //   }
 
-  return <div className='emCrdCt'>The todo Card</div>;
+  return <div className='emCrdCt'>The todo Card :D</div>;
 };
 
 export default TodoCard;
